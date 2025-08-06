@@ -44,7 +44,7 @@ for event, elem in context:
 print(f"Total metabolites parsed: {count_metabolites}")
 print(f"Total transporters found: {count_transporters}")
 print(f"Matches to SLC52: {len(slc_hits)}")
-print(f"hello world I'm dying")
+
 # Show first few hits
 for hit in slc_hits[:10]:
     print(hit)
